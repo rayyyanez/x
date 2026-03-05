@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="X_icon.svg.png" type="image/x-icon">
+
+<style>
+@font-face {
+  font-family: 'DreamPlanner';
+  src: url('dreamplanner.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ember';
+  src: url('ember-fire.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.website-title {
+  font-family: 'DreamPlanner';
+  font-size: 250%;
+  color: #e8e2da;
+}
+
+header {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #e8e2da;
+}
+
+.divo {
+  background: #e4e3e0;
+  border-left: 6px solid #e4e3e0;
+  padding: 20px 25px;
+  margin: 30px auto;
+  width: 70%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: auto;
+  width: 90%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.diva {
+  font-family: 'Ember';
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 20px;
+}
+@media (max-width: 800px) {
+  .diva {
+    grid-template-columns: 1fr; 
+  }
+}
+
+.join-button {
+  background-color: white;
+  color: rgb(57, 151, 224);
+  border-color: rgb(57, 151, 224);
+  border: solid;
+  height: 36px;
+  width: 72px;
+  border-radius: 2px;
+  transition: background-color 1s, color 0.15s;
+  cursor: pointer;
+}
+
+.join-button:hover {
+  background-color: rgb(57, 151, 224);
+  color: white;
+}
+
+
+.join-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  gap: 20px;
+  width: 70%;
+  margin: 20px auto;
+}
+
+.join-container span {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .join-container {
+    flex-direction: column; 
+    gap: 10px;
+  }
+}
+
+span {
+  font-family: 'Ember';
+  text-align: center;
+  text-decoration: underline;
+}
+
+.footer-para {
+  font-family: 'Ember';
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <p class="website-title">The First tweet Ever posted</p>
+</header>
+
+<div class="divo"> 
+  <img src="Tweet.png"> 
+</div>
+
+<div class="diva">
+  <p> 
+    In 2006, Jack Dorsey sent the first tweet: “just setting up my twttr,” marking the start of what would become Twitter, now rebranded as X. Originally a side project at the podcasting company Odeo, Twitter began as a simple SMS-based social network, limiting messages to 140 characters.
+  </p>
+
+  <p>
+    The platform quickly grew from a small experiment into a global phenomenon. By 2009, user numbers had skyrocketed, and in 2010, Twitter introduced Promoted Tweets as a revenue model. By 2013, it had over 200 million active users and a valuation exceeding $31 billion.
+  </p>
+
+  <p>
+    Today, X serves billions of users, providing real-time news, social interaction, and a platform for public discourse. Its role in politics, breaking news, and social movements highlighted during the 2016 U.S. election, the 2020 pandemic, and global protests has established it as a vital source of information worldwide.
+  </p>
+  <p>
+Twitter's early simplicity laid the foundation for real-time global communication. Even in its first years, it showed how brief messages could connect people and share ideas instantly across the world.
+</p>
+</div>
+
+<div class="join-container">
+  <span>Join a community of 650 million people</span>
+  <a href="https://x.com/" target="_blank"><button class="join-button">JOIN</button></a>
+</div>
+
+<footer>
+  <p class="footer-para">&copy; 2026 Rayane. Crafted with care.</p>
+</footer>
+
+</body>
+</html>
